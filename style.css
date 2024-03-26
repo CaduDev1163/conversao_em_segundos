@@ -1,0 +1,34 @@
+ html{
+    font-size: 62,5%; /*truque para transformar 1rem em 10px (facilita na noção dos tamanos das fontes) */
+ } 
+
+ body{ /*Retira o espaçamento padrão em volta do site*/
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; /*Mantém o tamanho dos itens e com o valor de espaçamento aplicado nele*/
+ }
+ 
+
+    #tit{
+    color: rgba(255, 51, 0, 0.582);
+    font-size: 3.8rem; /*equivalente a 38px*/
+    font-family: 'Roboto', sans-serif;
+}
+    #tit2{
+        color: blue;
+        font-size: 3rem;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    .ping {
+        /*padding: 1rem 1.5rem;
+        margin: 2rem 2rem 3rem 3rem;*/
+        display: flex;
+        align-items: baseline;
+        
+    }
+
+:root{
+    --cor: black;
+}
+
